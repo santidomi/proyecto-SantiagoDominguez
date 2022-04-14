@@ -19,15 +19,24 @@
             <!-- Termina nombre+logo-->
 
             <!-- Inicio zona navegable -->
-            <nav>
-                <ul class="links">
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="fechas.html">Fechas</a></li>
-                    <li><a href="entrevistas.html">Entrevistas</a></li>
-                    <li><a href="contacto.html">Contactos</a></li>
-                    <li><a href="#redes">Redes</a></li>
-                </ul>
-            </nav>
+       
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="fechas.html">Fechas</a></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="entrevistas.html">Entrevistas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#redes">Redes</a>
+                </li>
+              </ul>
             <!-- Fin Zona navegable-->
         </div>
         <!--Fin Heder-->
@@ -35,43 +44,67 @@
         <!-- Carousel-->
 <section>
     <!-- Aca va mi carousel-->
-    <section id="hero">
-        <h1>ElViraje</h1>
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="multimedia/fotos/tocando2redim.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="multimedia/fotos/tocandoredim.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="multimedia/fotos/tocando3redim.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </section>
     <!-- Fin carousel-->
 
-        <section id="nosotros">
-            <div class="container">
-                <h2>Nosotros</h2>
-                <div class="programas">
-            <div class="carta">
-                <h3>ANA MARCELA SZTARKER</h3>
-                <p>Profesora Nacional de Música recibida en el Conservatorio Nacional de Buenos Aires, en el año 1993. Estudió con el Maestro Oscar Piluso, primera Flauta de la Orquesta estable del Teatro Colón.</p>
-                <form action="ana.html">
-                <button>+info</button>
-                </form>
-            </div>
-            <div class="carta">
-                <h3>NESTOR DOMINGUEZ BALADO</h3>
-                <p>Profesor Nacional de Música, recibido en el Conservatorio Nacional de Música de Buenos Aires, López Buchardo. Cursó sus estudios con el Maestro Jorge Martínez Zárate.</p>
-                <form action="nestor.html">
-                <button>+info</button>
-                </form>
-            </div>
-            <div class="carta">
-                <h3>CARLOS MARIO PIURI </h3>
-                <p>Profesor universitario de música (I.U.N.A.):Sonido y grabacion digital, Informatica y medios electroacusticos
-                Comenzó sus estudios musicales a temprana edad en el Colegio Ward (Ramos Mejía).
-            
-                </p>
-                <form action="carlos.html">
-                <button>+info</button>
-                </form>
-            </div>
+    <section id="nosotros">
+        <div class="container">
+            <h2>Nosotros</h2>
+            <div class="programas">
+        <div class="carta">
+            <h3>ANA MARCELA SZTARKER</h3>
+            <p>Profesora Nacional de Música recibida en el Conservatorio Nacional de Buenos Aires, en el año 1993. Estudió con el Maestro Oscar Piluso, primera Flauta de la Orquesta estable del Teatro Colón.</p>
+            <form action="ana.html">
+            <button class="button type1">+info</button>
+            </form>
         </div>
-            </div>
-        </section>
-
+        <div class="carta">
+            <h3>NESTOR DOMINGUEZ BALADO</h3>
+            <p>Profesor Nacional de Música, recibido en el Conservatorio Nacional de Música de Buenos Aires, López Buchardo. Cursó sus estudios con el Maestro Jorge Martínez Zárate.</p>
+            <form action="nestor.html">
+            <button class="button type1">+info</button>
+            </form>
+        </div>
+        <div class="carta">
+            <h3>CARLOS MARIO PIURI </h3>
+            <p>Profesor universitario de música (I.U.N.A.):Sonido y grabacion digital, Informatica y medios electroacusticos
+            Comenzó sus estudios musicales a temprana edad en el Colegio Ward (Ramos Mejía).
+        
+            </p>
+            <form action="carlos.html">
+            <button class="button type1">+info</button>
+            </form>
+        </div>
+    </div>
+        </div>
+    </section>
 
          <!-- Albun de spotify -->
 <section>

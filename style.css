@@ -4,44 +4,17 @@
     box-sizing: border-box;
 }
 
-
+.nav-item a {
+    color: rgb(0, 0, 0);
+}
 
 body{
     background-color: rgba(243, 231, 208, 0.943);
 }
 
-.links {
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    background-color: rgb(253, 149, 111);
-    
-    
-    
+.nav {
+    background-color:rgba(253, 149, 111, 0.681);
 }
-
-ul {
-    list-style: none;
-}
-
-ul li a{
-    text-decoration: none;
-    color: black;
-    
-}
-
-ul li a{
-    padding: 5px 12px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-a:hover{
-    color: rgb(232, 35, 61);
-}
-
-
 
 button{
     font-size: 1.5em;
@@ -55,8 +28,17 @@ button{
 }
 
 button:hover{
-    background-color: rgb(45, 43, 48);
+    background-color:rgba(253, 149, 111, 0.74);
 }
+
+.button{position:relative;padding:1em 1.5em;border:none;background-color:transparent;cursor:pointer;outline:0;font-size:18px;}
+.button.type1{color:#566473}
+.button.type1.type1::after,.button.type1.type1::before{content:"";display:block;position:absolute;width:20%;height:20%;border:2px solid;transition:all .6s ease;border-radius:2px}
+.button.type1.type1::after{bottom:0;right:0;border-color:transparent #566473 #566473 transparent}
+.button.type1.type1::before{top:0;left:0;border-color:#566473 transparent transparent #566473}
+.button.type1.type1:hover:after,.button.type1.type1:hover:before{width:100%;height:100%}
+
+
 
 
 .contenedor {
