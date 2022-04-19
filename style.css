@@ -3,14 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bodyfondo{
+    background-color:rgba(253, 149, 111, 0.681);
+}
 
 .nav-item a {
     color: rgb(255, 0, 0);
     
-}
-/* Stylo Body*/
-body{
-    background-color:rgba(253, 149, 111, 0.308);
 }
 
 /* Stylo Nav*/
