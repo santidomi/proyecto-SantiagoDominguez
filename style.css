@@ -8,17 +8,18 @@
     color: rgb(255, 0, 0);
     
 }
-
+/* Stylo Body*/
 body{
     background-color:rgba(253, 149, 111, 0.308);
 }
 
+/* Stylo Nav*/
 .nav {
     background-color:rgba(253, 149, 111, 0.681);
 }
 
 
-
+/* Stylo Button*/
 button{
     font-size: 1.5em;
     font-weight: bold;
@@ -43,7 +44,7 @@ button:hover{
 
 
 
-
+/* Stylo Contenedor */
 .contenedor {
     display: grid;
 
@@ -64,11 +65,13 @@ button:hover{
     justify-content: center;
 }
 
+/* Stylo Container*/
 .container{
     max-width: 1400px;
     margin: auto;
 }
 
+/* Stylo Hero*/
 #hero{
     display: flex;
     padding: auto;
@@ -91,80 +94,6 @@ button:hover{
 
 #hero h1{
     color: white;
-}
-
-#nosotros{
-    margin-top: 40px;
-    background-color: rgb(234, 173, 138);
-    color: rgb(25, 25, 25);
-    text-align: center;
-}
-
-#nosotros .container{
-    padding: 100px 12px;
-}
-
-#nosotros h2{
-color: black;
-    
-}
-
-#nosotros p{
-    display: none;
-    
-}
-
-#nosotros .carta{
-    justify-content: center;
-    justify-content: space-between;
-
-}
-
-#nosotros .programas{
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-}
-
-#nosotros p{
-    display: block;
-    margin-bottom: 10px;
-   
-}
-
-#nosotros .carta{
-    padding: 15px;
-    
-}
-
-.playlist {
-    display: flex;
-    width: auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
-
-}
-
-.video1 {
-    display: flex;
-    width: auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
-
-}
-
-.video2 {
-    display: flex;
-    width: auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
-
 }
 
 .container-img{
@@ -212,7 +141,86 @@ color: black;
     .container-img .box-img img{
         height: 200px;
     }    
+}
 
+/* Stylo Nosotros */
+#nosotros{
+    margin-top: 40px;
+    background-color: rgb(234, 173, 138);
+    color: rgb(25, 25, 25);
+    text-align: center;
+}
+
+#nosotros .container{
+    padding: 100px 12px;
+}
+
+#nosotros h2{
+color: black;
+    
+}
+
+#nosotros p{
+    display: none;
+    
+}
+
+#nosotros .carta{
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+#nosotros .programas{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#nosotros p{
+    display: block;
+    margin-bottom: 10px;
+   
+}
+
+#nosotros .carta{
+    padding: 15px;
+    
+}
+
+
+/* Stylo spotify-youtube*/
+.playlist {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.video1 {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.video2 {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+/* Stylo Banda */
 .banda {
     display: grid;
     justify-content: center;
@@ -290,9 +298,12 @@ a.socialIcon:hover, .socialHoverClass {
 	transition: all 0.8s;
 }
 
+.containermedia{
+    display: flex;
+    justify-content: center;
+}
 
-
-   
+/* Stylo Fechas */
 #fechas img{
     max-width: 100%;
     margin-top: 20px;
@@ -301,6 +312,7 @@ a.socialIcon:hover, .socialHoverClass {
     justify-content: center;
 } 
 
+/* Stylo +Info */
 #ana img{
     max-width: 100%;
     background-color: navajowhite;
@@ -315,10 +327,12 @@ a.socialIcon:hover, .socialHoverClass {
     background-color: navajowhite;
 }
 
+/* Stylo Entrevistas*/
 #entrevistas img{
     max-width: 100%;
 }
 
+/* Stylo Contacto */
 #contacto img{
     max-width: 100%;
 }
@@ -326,5 +340,3 @@ a.socialIcon:hover, .socialHoverClass {
 .card-img-top {
     max-width: 100%;
 }
-
-
